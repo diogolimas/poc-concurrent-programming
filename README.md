@@ -2,7 +2,7 @@
 
 ### **O que é**
 
-Geralmente, aplicações e programas performam mais de uma operação ao mesmo tempo, isso é chamado de concorrência.
+Geralmente, aplicações e programas performam mais de uma operação ao mesmo tempo e isso é chamado de concorrência.
 
 ### **Thread**
 
