@@ -83,4 +83,12 @@ namespace Concurrency
         }
     }
 
+    class Program4
+    {
+        static void Main()
+        {
+            Console.ReadKey();
+        }
+    }
+
 }
