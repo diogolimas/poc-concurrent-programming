@@ -6,9 +6,9 @@ Geralmente, aplicações e programas performam mais de uma operação ao mesmo t
 
 ### **Thread**
 
-É um caminho de execução que pode ser executado de maneira de outras execuções. 
+É um caminho de execução que pode ser executado paralelamente a outras execuções. 
 
-Por exemplo, no cálculo de uma expressão, apenas uma *Thread* pode ser utilizada, no entanto, caso seja necessário calcular outra situação ao mesmo momento, isso pode ser feito, através da utilização de outra *Thread*.
+Por exemplo, no cálculo de uma expressão, apenas uma *Thread* pode ser utilizada. No entanto, caso seja necessário calcular outra situação ao mesmo momento, isso pode ser feito através da utilização de uma outra *Thread*.
 
 Na criação de uma Thread, ela pode ser criada e utilizada. Essa criação pode se dar com a utilização de outras Threads e elas serão executadas paralelamente.
 
