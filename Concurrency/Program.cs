@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading;
-
+using System.Threading.Tasks;
 
 namespace Concurrency
 {
@@ -87,6 +87,84 @@ namespace Concurrency
     {
         static void Main()
         {
+            Task task = Task.Run(() =>
+            {
+                Thread.Sleep(2000);
+                Console.WriteLine("Inicializando uma Task");
+            });
+
+            Console.WriteLine("task is completed: " + task.IsCompleted);
+            task.Wait(); 
+            Console.WriteLine("task is completed after inicialization: " + task.IsCompleted);
+ 
+             Console.ReadKey();
+        }
+    }
+
+    class Program5
+    {
+        static void Main()
+        {
+            Task<int> task = Task.Run(() =>         
+            {
+                return 3;
+            });
+
+            int number = task.Result;
+
+            Console.WriteLine(number);
+
+            Console.ReadKey();
+        }
+    }
+
+    class Program6
+    {
+        static void Main()
+        {
+            Task<int> primeNumberTask = Task.Run(() =>
+            {
+                Thread.Sleep(3000);
+                return 10;
+            });
+
+            var awaiter = primeNumberTask.GetAwaiter();
+            awaiter.OnCompleted(() =>
+            {
+                int result = awaiter.GetResult();
+                Console.WriteLine(result); 
+            });
+
+            Console.ReadKey();
+        }
+    }
+
+    class Program7
+    {
+        static void Main()
+        {
+            Task<int> primeNumberTask = Task.Run(() =>
+            {
+                Thread.Sleep(3000);
+                return 10;
+            });
+
+            primeNumberTask.ContinueWith(antecedent =>
+            {
+                int result = antecedent.Result;
+                Console.WriteLine(result); 
+            });
+
+            Console.ReadKey();
+        }
+    }
+
+    class Program8
+    {
+        static void Main()
+        {
+            Task.Delay(3000).GetAwaiter().OnCompleted(() => Console.WriteLine("My task is completed " +
+                "after 3 seconds! :)"));
             Console.ReadKey();
         }
     }

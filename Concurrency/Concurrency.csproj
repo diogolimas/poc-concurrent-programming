@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>Concurrency.Program3</StartupObject>
+    <StartupObject>Concurrency.Program8</StartupObject>
   </PropertyGroup>
 
 </Project>
