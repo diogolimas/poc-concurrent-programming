@@ -1,0 +1,16 @@
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.exe
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.deps.json
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.runtimeconfig.json
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.runtimeconfig.dev.json
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.dll
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\bin\Debug\net5.0\Concurrency.pdb
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.csproj.AssemblyReference.cache
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.AssemblyInfoInputs.cache
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.AssemblyInfo.cs
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.csproj.CoreCompileInputs.cache
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.dll
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\refint\Concurrency.dll
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.pdb
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\Concurrency.genruntimeconfig.cache
+C:\Users\profi\Documents\dev\concurrency-programming\Concurrency\obj\Debug\net5.0\ref\Concurrency.dll
